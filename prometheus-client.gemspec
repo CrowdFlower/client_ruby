@@ -16,4 +16,5 @@ Gem::Specification.new do |s|
   s.require_paths     = ['lib']
 
   s.add_dependency 'quantile', '~> 0.2.0'
+  s.add_dependency 'sys-cpu'
 end
