@@ -174,6 +174,24 @@ summary.get({ service: 'database' })
 # => { 0.5 => 0.1233122, 0.9 => 3.4323, 0.99 => 5.3428231 }
 ```
 
+## Releases
+
+When a new version of this gem is released, the tags within the gemfile in the following repositories must be updated.
+
+* [Akon](https://github.com/CrowdFlower/CrowdFlower/tree/master/projects/akon)
+* [Builder](https://github.com/CrowdFlower/CrowdFlower/tree/master/projects/builder)
+* [Goldfinger](https://github.com/CrowdFlower/Goldfinger)
+* [Make](https://github.com/CrowdFlower/CrowdFlower/tree/master/projects/make)
+* [Worker UI](https://github.com/CrowdFlower/CrowdFlower/tree/master/projects/worker_ui)
+* [ChannelsService](https://github.com/CrowdFlower/ChannelsService)
+* [ContributorProfilesService](https://github.com/CrowdFlower/ContributorProfilesService)
+* [JobsService](https://github.com/CrowdFlower/JobsService)
+* [TagsService](https://github.com/CrowdFlower/TagsService)
+* [ResourceActionAuthSrvc](https://github.com/CrowdFlower/ResourceActionAuthSrvc)
+* [ClientActionsAuditService](https://github.com/CrowdFlower/ClientActionsAuditService)
+* [ContributorStatisticsService](https://github.com/CrowdFlower/ContributorStatisticsService)
+* [TaskListingService](https://github.com/CrowdFlower/TaskListingService)
+
 ## Tests
 
 Install necessary development gems with `bundle install` and run tests with
